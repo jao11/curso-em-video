@@ -1,0 +1,17 @@
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo
+# e todas as informações possiveis sobre ele.
+print('Você poderia digitar alguma coisa?')
+n = (input('-'))
+print('O caracter digitado por você é do tipo primitivo:', type(n))
+print('Ele é uma letra:', n.isalpha())
+print('Ele é um número:', n.isnumeric())
+print('Ele é um número decimal:', n.isdecimal())
+print('Ele é um título:', n.istitle())
+print('Ele é um espaço:', n.isspace())
+print('Ele é um dígito:', n.isdigit())
+print('Ele está em caixa baixa:', n.islower())
+print('Ele está em caixa alta:', n.isupper())
+print('Ele é um identificador:', n.isidentifier())
+print('Ele é um imprimível:', n.isprintable())
+print('Ele é um alfanumérico:', n.isalnum())
+print('Ele é uma sub classe:', n.__init_subclass__())
